@@ -2,19 +2,32 @@
 <html>
     <head>
         <meta charset = "UTF-8">
-        <title>Odin Recipes</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jerry's Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <img src="./images/kitchen.jpeg" 
-            width = "500"
-            height = "300"
-            alt="Kitchen"> 
-        <ul>
-            <li><a href = "./recipes/lemon_bars.html">Lemon Bars</a></li>
-            <li><a href = "./recipes/shepherd_pie.html">Shepherd's Pie</a></li>
-            <li><a href = "./recipes/sausage_casserole.html">Sausage Casserole</a></li>
-        </ul>
+    <body> 
+        <div class ="header">
+            <div class="logo">Jerry's Recipes</div>
+            <a href = "index.html" class="header-link">Home</a>
+        </div>
+
+        <div class="title-image"><img src="./images/all_food.jpg" alt="Kitchen"></div>
+
+        <div class="content">
+            <div class="title">Favorite Recipes</div>
+            <ul>
+                <li><a href = "./recipes/lemon_bars.html" class="recipe-link">Lemon Bars</a></li>
+                <li><a href = "./recipes/shepherd_pie.html" class="recipe-link">Shepherd's Pie</a></li>
+                <li><a href = "./recipes/sausage_casserole.html" class="recipe-link">Sausage Casserole</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <div class="signature">By Jerry Wang</div>
+        </div>
 
     </body>
 </html>
